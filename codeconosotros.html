@@ -46,7 +46,7 @@
         }
 
         main {
-            padding: 20px;
+            padding: 40px 20px;
             text-align: center;
         }
 
@@ -57,32 +57,30 @@
             font-size: 2.5em;
         }
 
-        .overview-container {
-            max-width: 900px;
+        .presentation-text {
+            max-width: 800px;
             margin: 0 auto 30px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .overview-text {
-            flex: 1 1 50%;
-            padding: 20px;
-            text-align: left;
             font-size: 1.1em;
         }
 
-        .overview-image {
-            flex: 1 1 30%;
-            padding: 20px;
+        .mission-vision {
+            display: flex;
+            justify-content: space-around;
+            max-width: 900px;
+            margin: 30px auto;
+            text-align: center;
         }
 
-        .overview-image img {
-            max-width: 100%;
-            height: auto;
+        .mission-vision div {
+            padding: 20px;
+            border: 1px solid #ddd;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .mission-vision h2 {
+            font-family: cursive;
+            color: #2f2c7f;
+            margin-bottom: 10px;
         }
 
         .footer {
@@ -93,7 +91,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            margin-top: 20px;
+            margin-top: 40px;
         }
 
         .footer div {
@@ -158,7 +156,7 @@
             <img src="logo.jfif" alt="Logo">
         </div>
         <ul>
-            <li><a href="codecoindex.html">Inicio</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="codeconosotros.html">Nosotros</a></li>
             <li><a href="codecocont.html">Contacto</a></li>
             <li><a href="codecoins.html">Inscripciones</a></li>
@@ -167,26 +165,24 @@
 
     <main>
         <h1>Bienvenido a CODECO</h1>
-        <div class="overview-container">
-            <div class="overview-text">
-                <p>El Colegio Dominicano de Economistas (CODECO) es la principal institución que agrupa a los profesionales de la economía en la República Dominicana. Desde su fundación en 1967, CODECO ha jugado un papel crucial en el desarrollo económico y social del país, promoviendo la excelencia profesional, el debate informado y la ética en la práctica de la economía.</p>
-                <p>Buscamos ser un referente nacional e internacional, impulsando la investigación económica, ofreciendo oportunidades de capacitación continua a nuestros miembros y colaborando con instituciones públicas y privadas en la formulación de políticas que contribuyan al bienestar de la sociedad dominicana.</p>
-                <p>Explora nuestro sitio para conocer más sobre nuestras actividades, cómo unirte a nuestra comunidad y los recursos que ofrecemos a los economistas y al público interesado en la ciencia económica.</p>
+        <p class="presentation-text">
+            El Colegio Dominicano de Economistas, Inc. (CODECO) es una institución con una rica tradición de pensamiento económico en la República Dominicana. Nos dedicamos a fomentar el desarrollo profesional de nuestros miembros, promover el análisis económico riguroso y contribuir al debate sobre políticas públicas en beneficio de la sociedad dominicana.
+        </p>
+
+        <div class="mission-vision">
+            <div>
+                <h2>Misión</h2>
+                <p>Promover la excelencia en la práctica de la economía y el desarrollo profesional de los economistas dominicanos, contribuyendo al progreso económico y social de la nación.</p>
             </div>
-            <div class="overview-image">
-                <img src="kk.jpeg" alt="Actividades de CODECO">
+            <div>
+                <h2>Visión</h2>
+                <p>Ser la organización líder y referente de los economistas en la República Dominicana, reconocida por su rigor académico, ética profesional y su impacto positivo en la sociedad.</p>
             </div>
         </div>
 
-        <div class="overview-container">
-            <div class="overview-image">
-                <img src="miembros.jpeg" alt="Miembros de CODECO">
-            </div>
-            <div class="overview-text">
-                <p>En CODECO, valoramos la integridad, el rigor académico y el compromiso social. Trabajamos para fortalecer la profesión de economista, asegurando que sus miembros actúen con los más altos estándares éticos y contribuyan de manera significativa al análisis y solución de los desafíos económicos que enfrenta la nación.</p>
-                <p>Te invitamos a participar en nuestros eventos, a explorar nuestras publicaciones y a ser parte de una comunidad de profesionales apasionados por la economía y su impacto en la sociedad dominicana.</p>
-            </div>
-        </div>
+        <p class="presentation-text">
+            A través de diversas actividades, como seminarios, talleres, publicaciones y foros de discusión, CODECO busca ser un espacio de encuentro y aprendizaje para los profesionales de la economía en el país. Te invitamos a explorar nuestro sitio y a unirte a nuestra comunidad.
+        </p>
     </main>
 
     <footer class="footer">
